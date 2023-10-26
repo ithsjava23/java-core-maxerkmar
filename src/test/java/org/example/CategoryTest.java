@@ -55,4 +55,5 @@ public class CategoryTest {
                 .isInstanceOf(IllegalArgumentException.class)
                 .hasMessage("Category name can't be null");
     }
+
 }
